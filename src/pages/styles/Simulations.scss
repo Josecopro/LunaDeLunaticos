@@ -1,9 +1,9 @@
 @import '_variables';
 
-.SimulationTitle{
-    font-size: 3.5rem;
-    color: $Light;
-    margin: 1rem;
-    text-align: center;
-    text-shadow: 0 0 1em $LightShadows;
+.AnimationCanvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    height: 75vh;
 }
