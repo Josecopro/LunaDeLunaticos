@@ -1,2 +1,15 @@
 @import 'variables.scss';
 
+.Video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.VideoTitle{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}

@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { NavBar } from '../pages/Molecules/NavBar';
+import './styles/Simulations.scss';
 
 function Simulation() {
   const mountRef = useRef(null);
@@ -110,7 +111,16 @@ function Simulation() {
   return (
     <>
       <NavBar />
-      <div ref={mountRef} />
+      <section>
+        <h1>Simulation</h1>
+        <p>Click and drag to move the camera, and scroll to zoom in/out.</p>
+        <div ref={mountRef} />
+      </section>
+
+      <section>
+        <h1>Prey Simulation eating bacteria</h1>
+         <img className='Sim' src="../../public/PreySim.gif" alt="Sim" />
+      </section>
     </>
   );
 }

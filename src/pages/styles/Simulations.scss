@@ -4,6 +4,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 90%;
     height: 75vh;
+}
+.AnimationCanvas canvas{
+    border: 1px solid $Light;
+    border-radius: 5px;
+}
+
+.AnimationCanvas h1{
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-align: center;
+}
+.AnimationCanvas p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.Sim{
+    aspect-ratio: 16/9;
+    padding: 5em;
 }
